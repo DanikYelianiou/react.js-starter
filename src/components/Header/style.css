@@ -1,0 +1,90 @@
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: #171d22;
+    display: flex;
+    align-items: center;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header__inner {
+    font-size: 14px;
+    color: #f0f0f0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo {
+    width: 151px;
+    height: 44px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a {
+    padding: 38px 23px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.navbar ul li a:hover {
+    color: #e4d804;
+    transition: 1s;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.search_before {
+    color: #fff;
+    opacity: .12;
+    margin-right: 10px;
+}
+
+.signInBox {
+    width: 131px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #e4d804;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.signInText {
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.signInBox:hover {
+    background-color: #e4d804;
+    color:#171d22;
+    font-weight: 700;
+    transition: .3s;
+}

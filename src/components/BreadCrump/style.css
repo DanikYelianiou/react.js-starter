@@ -1,0 +1,39 @@
+.breadcrump-bg {
+    background-image: url("../../media/breadcrumb_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title span {
+    color: #e4d804;
+}
+
+.breadcrumb-nav {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.breadcrumb-nav a:first-child {
+    color: #e4d804;
+}
